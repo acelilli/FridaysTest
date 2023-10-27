@@ -1,0 +1,124 @@
+/* Your styles here */
+/* IMPOSTAZIONI GENERALI */
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65em;
+}
+/* HEADER */
+header {
+    background-color: black;
+    height: fit-content;
+    padding: 1em 1em;
+}
+header img {
+    width: 45%;
+    margin: 20px;
+}
+/* MAIN */
+main {
+    background-image: url(../images/banner.jpg);
+    background-position: 50%;
+    padding: 1.5em 2em;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-size: 1.8rem;
+}
+main button {
+    margin: 1.5em;
+    padding: 0.7em 1.4em;
+    background-color: #f04c2f ;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+/* SEZIONE 1*/
+#about {
+    padding: 1.5em 2em;
+}
+#about div {
+    margin: 8%;
+}
+#about h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+#about img {
+    border-radius: 50%;
+    width: 70%;
+}
+/* SEZIONE TESTIMONE */
+#testimone {
+    background-color: #e22d0e;
+    color: white;
+}
+#testimone quote {
+    font-style: italic;
+}
+.autore {
+    padding:0.2em;
+    margin-top: 1.56em;
+}
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 1.2em;
+}
+/* ASIDE CON i 3 DIV */
+aside {
+    padding: 2em;
+}
+aside .container {
+    border: 1px solid #dee1e3;
+    height: 80%;
+    width: 95%;
+    margin: 2em 0;
+}
+
+.image_lightsolo img, .image_darksolo img, .image_lightmulti img {
+    width: 100%;
+}
+aside h4 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin: 0.6em;
+}
+aside p {
+    margin: 0.5em;
+}
+/* FOOTER */
+footer {
+    background-color: #25a2c3;
+    color: white;
+    padding: 1.2em
+}
+footer ul li {
+    list-style: none;
+}
+li i{
+    color: white;
+}
+footer h2{
+    margin-top: 0.6em;
+}
+footer a {
+    color: #c8e7f0;
+}
+footer address {
+    display: inline;
+}
+footer hr {
+    width: 40%;
+    margin: 1.5em auto 1.5em auto;
+}
+.mini {
+    font-size: 0.8em;
+    margin-bottom: 1em;
+}
