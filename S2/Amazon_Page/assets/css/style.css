@@ -1,0 +1,157 @@
+/* Your styles here */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeded;
+    padding: 0 auto;
+}
+
+/* -++++++++++++++++++++++++++   Header ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                            Logo + nav */
+
+header {
+    height:fit-content;
+    text-align: left;
+}
+.bg-dark {
+    color: #eaeded;
+    background-color: #222f3e;
+}
+
+header img {
+    width: 6%;
+    margin: 10px;
+}
+
+header nav, .goback {
+    background-color: #364759;
+    height: 1.2em;
+    font-size: 0.9rem; 
+}
+
+header a, .goback a {
+    text-decoration: none;
+    color:#eaeded;
+}
+
+nav, .goback { 
+    height: 1rem;
+    padding: 5px 10px;
+}
+nav ul { 
+    list-style-type: none;
+    padding: 0 25;
+}
+nav ul li { 
+    float: left;
+    padding: 0 0.4em;
+}
+
+/* -+++++++++++++++++++++++++++++++++++++++++++ Banner Holiday +++++++++++++++++++++++++++++++++++++++++++
+striscia bg arancio */
+
+#holidays {
+    font-size: 1em;
+    width: 96%;
+    margin: 0 auto;
+}
+.bg-yellow {
+    color: #eaeded;
+    background-color: #f56600;
+    margin: 2em auto;
+}
+.text-center {
+    text-align:center;
+}
+.py-1 {
+    padding: 0.8rem;
+}
+.green {
+    background-image: url(/Amazon_Page/assets/images/bg-image.png);
+    height: fit-content;
+    color: #eaeded;
+    text-align: center;
+    padding: 1em;
+    margin: 2em auto;
+}
+.green h2 {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    margin-top: 1.4em;
+    font-weight: 700;
+}
+
+.green p {
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++ Shop now +++++++++++++++++++++++++++++++++++++++++++ */
+#ShopNow {
+    background-color: white;
+    box-shadow: gainsboro -5px;
+    width: 96%;
+    margin: 2em auto;  
+    text-indent: 1.2em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+h3 {
+    font-size: 1em;
+    display: inline;
+    font-weight: 700;
+}
+
+.shoplink {
+    color: #056a73;
+    font-size: 0.8em;
+    margin-left: 1em;
+    font-weight: 700;
+}
+
+.shopimg img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.116) 5px 10px 6px;
+    display: inline;
+    height: 25em;
+    width: 20em;
+    object-fit: cover;
+    margin: 1em 1em;
+    text-align: center;
+}
+
+.shopimg {
+    margin-top: 1em;
+}
+
+/* +++++++++++++++++++ main ++++++++++++++++++++++++++++++++++++ */
+
+main {
+    text-align: center;
+    margin: 2em;
+    width: 96%;
+}
+
+.banners img {
+    width: 100%;
+}
+.middle {
+    margin-bottom: 2em;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++ Footer +++++++++++++++++++++++++++++++++++++++++++
+    Div footer top con back up
+    div footer bottom con il logo */ 
+    
+.goback a {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+}
+footer img {
+    margin: 3em;
+    width: 12%;
+}
